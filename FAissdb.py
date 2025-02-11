@@ -7,7 +7,7 @@ from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
-TEXT_DIR = r"C:\Users\Satchal Patil\DATASCIPRAC\FrobeAI\FAISS DB\Cynet extracted txt"  # Directory containing your .txt files
+TEXT_DIR = "Path to directory"  # Directory containing your .txt files
 MODEL_NAME = 'all-MiniLM-L6-v2'
 INDEX_FILE = "faiss_index.index"
 METADATA_FILE = "metadata.pkl"
